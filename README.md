@@ -15,9 +15,11 @@ Reflection of light is either [specular](https://en.wikipedia.org/wiki/Specular_
 
 A mirror provides the most common model for specular light reflection, and typically consists of a glass sheet with a metallic coating where the significant reflection occurs. Reflection is enhanced in metals by suppression of wave propagation beyond their [skin depths](https://en.wikipedia.org/wiki/Skin_depth). Reflection also occurs at the surface of [transparent](https://en.wikipedia.org/wiki/Transparency_and_translucency) media, such as water or [glass](https://en.wikipedia.org/wiki/Glass).
 
+</br>
 
+![Water Reflections_main](https://github.com/user-attachments/assets/23c71180-e82f-458c-b055-243394bc0a62)
 
-
+</br>
 
 
 
