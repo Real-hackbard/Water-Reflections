@@ -31,7 +31,7 @@ Reflection is the change in direction of a [wavefront](https://en.wikipedia.org/
 
 </br>
 
-
+Accurate reflections are commonly computed using [ray tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) whereas approximate reflections can usually be computed faster by using simpler methods such as [environment mapping](https://en.wikipedia.org/wiki/Reflection_mapping). Reflections on shiny surfaces like wood or tile can add to the photorealistic effects of a [3D rendering](https://en.wikipedia.org/wiki/3D_rendering).
 
 
 
