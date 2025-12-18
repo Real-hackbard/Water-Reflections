@@ -43,5 +43,63 @@ Accurate reflections are commonly computed using [ray tracing](https://en.wikipe
 * Calculate Pixel bit
 * Create Watermark
 
+# Function:
+In this program, the water effect is simply created by smearing two bitmaps located in memory on top of each other and painting them into a PaintBox.
 
+```pascal
+procedure Tform1.mirror(ph : integer);
+{$R-}
+var
+  h : single;          
+  a : single;          
+  dy : single;
+  y3 : integer;
+  x4, y4 : integer;
+  f : single;          
+  p : single;          
+  k0 : single;
+  k1 : single;
+  k2 : single;
+  za : integer;
+begin
+  p := ph;                  
+  h := bmp4.height;         
+  f := frames;              
+  a := (2*pi*p) / f;
+  k0 := 16;
+  k1 := h/k0;
+  k2 := k0*1.5;
+  for y4 := 0 to bmp4.height -1 do   
+  begin
+    dy := y4;  
+    y3 := trunc( k1*(dy+k2) * sin((h/k1*(h-dy))/(dy+1)+a)/h );
+    y3 := y3+y4;
+    iF Checkbox1.Checked then
+    begin
+      for x4 := 0 to bmp4.width-1 do
+      begin
+        if (y3 > 0) and (y3 < Bmp3.height) and ((x4+y4) mod 2 = 0) then
+          Tscan4[y4,x4] := Tscan3[y3, x4]
+        else
+          Tscan4[y4,x4] := Tscan3[y4, x4];
+      end;
+    end
+    else
+    begin
+      for x4 := 0 to bmp4.width-1 do
+      begin
+        if (y3 > 0) and (y3 < Bmp3.height) then
+          Tscan4[y4,x4] := Tscan3[y3, x4]
+        else
+          Tscan4[y4,x4] := Tscan3[y4, x4];
+      end;
+    end;
+  end;
+  {$R+}
+end;
+```
+
+</br>
+
+The function is executed very quickly, resulting in a realistic water-mirror effect.
 
