@@ -11,6 +11,10 @@
 </br>
 
 
+Reflection of light is either [specular](https://en.wikipedia.org/wiki/Specular_reflection) (mirror-like) or [diffuse](https://en.wikipedia.org/wiki/Diffuse_reflection) (retaining the [energy](https://en.wikipedia.org/wiki/Energy), but losing the image) depending on the nature of the interface. In specular reflection the [phase](https://en.wikipedia.org/wiki/Phase_(waves)) of the reflected waves depends on the choice of the origin of coordinates, but the relative phase between s and p (TE and TM) polarizations is fixed by the properties of the media and of the interface between them.
+
+A mirror provides the most common model for specular light reflection, and typically consists of a glass sheet with a metallic coating where the significant reflection occurs. Reflection is enhanced in metals by suppression of wave propagation beyond their [skin depths](https://en.wikipedia.org/wiki/Skin_depth). Reflection also occurs at the surface of [transparent](https://en.wikipedia.org/wiki/Transparency_and_translucency) media, such as water or [glass](https://en.wikipedia.org/wiki/Glass).
+
 
 
 
