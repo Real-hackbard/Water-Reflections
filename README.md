@@ -21,7 +21,7 @@ A mirror provides the most common model for specular light reflection, and typic
 
 </br>
 
-
+Reflection is the change in direction of a [wavefront](https://en.wikipedia.org/wiki/Wavefront) at an interface between two different media so that the wavefront returns into the medium from which it originated. Common examples include the reflection of light, sound and [water waves](https://en.wikipedia.org/wiki/Wind_wave). The law of reflection says that for specular reflection (for example at a mirror) the angle at which the wave is incident on the surface equals the angle at which it is reflected.
 
 
 
