@@ -101,5 +101,19 @@ end;
 
 </br>
 
+### Original:
+</br>
+
+![Original](https://github.com/user-attachments/assets/8bdf7fda-8250-4817-a97e-61e4684c4316)
+
+</br>
+
+### Reflections:
+</br>
+
+![Reflections](https://github.com/user-attachments/assets/77b52df7-7c59-4e66-b304-47aee870b482)
+
+</br>
+
 The function is executed very quickly, resulting in a realistic water-mirror effect.
 
